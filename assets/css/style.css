@@ -116,3 +116,25 @@ nav {
   font-family: Oswald;
 
 }
+
+/* contacto */
+
+#contacto div h1{
+  font-family: Oswald;
+  font-size: 52px;
+
+}
+
+#contacto div hr {
+  width: 150px;
+}
+
+/* footer */
+
+#footer {
+  background-color: #660066;
+}
+
+#footer h1 {
+  font-family: Oswald;
+}
