@@ -1,0 +1,75 @@
+/* navbar */
+
+nav {
+  background-color: #660066;
+}
+
+.navbar-brand {
+  font-size: 40px;
+  font-family: Oswald;
+  font-weight: bold;
+}
+
+/* hero-section */
+
+#hero-section {
+  height: 100vh;
+  background: url("../img/bg_hero.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+}
+
+#hero-section div {
+  position: absolute;
+  bottom: 40px;
+  width: 100%;
+}
+#hero-section hr {
+  width: 350px;
+  height: 1px;
+}
+
+#hero-section h1 {
+  font-size: 72px;
+  font-family: Oswald;
+}
+
+#hero-section h1:first-child {
+  font-weight: 200;
+}
+
+#hero-section h1:last-child {
+  font-weight: bold;
+}
+
+@media (max-width: 576px) {
+  #hero-section h1 {
+    font-size: 40px;
+  }
+
+  #hero-section hr {
+    width: 200px;
+  }
+}
+
+/* about me */
+
+#about-me {
+  color: #373a3c;
+}
+
+#about-me hr {
+  width: 115px;
+  height: 1px;
+}
+
+#about-me h4, #about-me div:last-child {
+  font-family: "Open Sans";
+  line-height: 3;
+}
+
+#about-me h4 {
+  font-weight: 600;
+}
