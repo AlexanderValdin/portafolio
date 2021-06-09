@@ -73,3 +73,46 @@ nav {
 #about-me h4 {
   font-weight: 600;
 }
+
+/* experience */
+
+#experience i {
+  color: #660066;
+}
+
+#experience div hr {
+  width: 150px;
+  border: 1x solid;
+  background: black;
+}
+
+#experience div:last-child article h4:first-child {
+  font-family: Oswald;
+}
+
+#experience div:last-child article h4:last-child {
+  font-family: "Open Sans";
+  font-weight: 300;
+}
+
+/* trabajos */
+
+#trabajos {
+  background-color: #660066;
+}
+
+#trabajos div h1 {
+  font-size: 52px;
+  font-family: Oswald;
+  font-weight: bold;
+}
+
+#trabajos div hr {
+  width: 110px;
+  height: 1px;
+}
+
+#trabajos h4 {
+  font-family: Oswald;
+
+}
